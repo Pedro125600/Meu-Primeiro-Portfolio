@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{ 
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+li.text:hover{ transform: scale(1.2);}
+img.logo1:hover{ transform: scale(1.1);}
+img.logo2:hover{ transform: scale(1.1);}
+img.logoG:hover{ transform: scale(1.1);}
+img.logoGG:hover{ transform: scale(1.1);}
+img.imgs:hover{ transform: scale(1.1);}
+
+.logo1{
+    margin-left:8% ;
+    transition: 0.5s;
+}
+
+.logoGG{
+    margin-left:8% ;
+    transition: 0.5s;
+}
+
+.logo2{
+    margin-right:8% ;
+    transition: 0.5s;
+}
+
+.listaC{
+
+    display: inline-block;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right:8% ;
+ 
+}
+
+.text{
+    list-style: none;
+    padding: 2vw;
+    font-size: 22px;
+   
+}
+
+
+.textc{
+    margin-top: 2vh;
+    font-size: 28px;
+    color: white;
+    margin-left: 62%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hard{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-top: 3vh;
+    font-size: 30px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-top: -10vh;
+    font-size: 50px;
+    color: #38B6FF;
+}
+
+.text2{
+    color:#A3A3A3
+
+    
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       
+}
+
+.banner{
+    margin-top: 12vh;
+    display: grid;
+    
+}
+
+.linha{
+    background-color: black;
+    height: 7px;
+    margin-top:-2vh;
+  
+}
+
+
+.titulo2{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 50px;
+    color: #38B6FF;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.imgs{
+    list-style: none;
+    display: inline-block;
+    padding: 4vw;
+
+
+}
+
+.blocob{margin-top: 22vh;
+    
+}
+
+.blococ{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 55vh;
+
+}
+
+.blocod{
+    display: flex;
+    align-items: center;
+}
+
+.forms{
+    width: 20vw;
+    height: 5vh;
+    font-size: 30px;
+}
+.formss{
+    width: 25vw;
+    height: 30vh;
+    font-size: 30px;
+    resize: none;
+}
+
+.formms{
+    margin-top: 2vh;
+    width: 25.5vw;
+    height: 5vh;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.ajustar{
+    margin-left: 2vw;
+
+}
+
+.ajustar2{
+    margin-top: -4vh;
+}
+
+.ajustar3{
+   padding-bottom: 2vh;
+   padding-top: 2vh;
+}

@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+li.text:hover{ transform: scale(1.2);}
+img.logo1:hover{ transform: scale(1.1);}
+img.logo2:hover{ transform: scale(1.1);}
+img.logoG:hover{ transform: scale(1.1);}
+img.logoGG:hover{ transform: scale(1.1);}
+img.imgs:hover{ transform: scale(1.1);}
+
+.logo1{
+    margin-left:8% ;
+    transition: 0.5s;
+}
+
+.logo2{
+    margin-right:8% ;
+    transition: 0.5s;
+}
+
+.listaC{
+
+    display: inline-block;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right:8% ;
+ 
+}
+
+.text{
+    list-style: none;
+    padding: 2vw;
+    font-size: 22px;
+   
+}
+
+
+.textc{
+    margin-top: 2vh;
+    font-size: 28px;
+    color: white;
+    margin-left: 62%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hard{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-top: 3vh;
+    font-size: 30px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-top: -10vh;
+    font-size: 50px;
+    color: #38B6FF;
+}
+
+.text2{
+    color:#A3A3A3
+
+    
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       
+}
+
+.banner{
+    margin-top: 12vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logoG{
+    margin-top: -10vh;
+    transition: 0.5s;
+}
+.logoGG{
+    
+    transition: 0.5s;
+}
+
+.linha{
+    background-color: black;
+    height: 7px;
+  
+  
+}
+
+
+.bloco {
+    height: 56vh;
+}
+
+.titulo2{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 50px;
+    color: #38B6FF;
+    margin-left: 2vw;
+}
+
+.imgs{
+    list-style: none;
+    margin-left: 2vw;
+    display: inline-block;
+
+}
+
